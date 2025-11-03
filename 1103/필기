@@ -1,0 +1,14 @@
+[0.07629731297492981, 0.9757000207901001]
+313/313 [==============================] - 0s 502us/step - loss: 0.0763 - accuracy: 0.9757
+[0.07629731297492981, 0.9757000207901001]
+313/313 - 0s - loss: 0.0763 - accuracy: 0.9757 - 205ms/epoch - 654us/step
+[0.07629731297492981, 0.9757000207901001]
+-------------------------------------------------------------------------------------------------
+jupyter notebook &
+경로 : C:\Users\COMPUTER 아래
+!pip install ipykernel : 설치 후 닫고 다시 열어서 change kernel>tf2로 변경
+-------------------------------------------------------------------------------------------------
+import tensorflow as tf
+!pip install tensorflow : 텐서플로우 재설치
+
+path = https://www.kabble.com/api/v1/model/kagglehub.model_download("google/mobilenet-v2/tensorFlow2/100-224-feature-vector")
